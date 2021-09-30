@@ -25,34 +25,14 @@ namespace Opacidad
             InitializeComponent();
         }
 
-        private void ImagenEpisodioIV_MouseEnter(object sender, MouseEventArgs e)
+        private void ImagenStarWars_MouseEnter(object sender, MouseEventArgs e)
         {
-            ImagenEpisodioIV.Opacity = 0.5;
+            (sender as Image).Opacity = 0.5;
         }
 
-        private void ImagenEpisodioIV_MouseLeave(object sender, MouseEventArgs e)
+        private void ImagenStarWars_MouseLeave(object sender, MouseEventArgs e)
         {
-            ImagenEpisodioIV.Opacity = 1;
-        }
-
-        private void ImagenEpisodioV_MouseEnter(object sender, MouseEventArgs e)
-        {
-            ImagenEpisodioV.Opacity = 0.5;
-        }
-
-        private void ImagenEpisodioV_MouseLeave(object sender, MouseEventArgs e)
-        {
-            ImagenEpisodioV.Opacity = 1;
-        }
-
-        private void ImagenEpisodioVI_MouseEnter(object sender, MouseEventArgs e)
-        {
-            ImagenEpisodioVI.Opacity = 0.5;
-        }
-
-        private void ImagenEpisodioVI_MouseLeave(object sender, MouseEventArgs e)
-        {
-            ImagenEpisodioVI.Opacity = 1;
+            (sender as Image).Opacity = 1;
         }
     }
 }

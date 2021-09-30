@@ -11,9 +11,9 @@
             <ColumnDefinition Width="37*"/>
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="ImagenEpisodioIV" Margin="22,29,401,29" Source="episodioIV.jpg" Stretch="Fill" MouseEnter="ImagenEpisodioIV_MouseEnter" MouseLeave="ImagenEpisodioIV_MouseLeave"/>
-        <Image x:Name="ImagenEpisodioV" Margin="290,37,139,29" Source="episodioV.jpg" Stretch="Fill" MouseEnter="ImagenEpisodioV_MouseEnter" MouseLeave="ImagenEpisodioV_MouseLeave"/>
-        <Image x:Name="ImagenEpisodioVI" Margin="559,29,20,29" Source="episodioVI.jpg" Stretch="Fill" Grid.ColumnSpan="2" MouseEnter="ImagenEpisodioVI_MouseEnter" MouseLeave="ImagenEpisodioVI_MouseLeave"/>
+        <Image x:Name="ImagenEpisodioIV" Margin="22,29,401,29" Source="episodioIV.jpg" Stretch="Fill" MouseEnter="ImagenStarWars_MouseEnter" MouseLeave="ImagenStarWars_MouseLeave" Tag="EpisodioIV"/>
+        <Image x:Name="ImagenEpisodioV" Margin="290,37,139,29" Source="episodioV.jpg" Stretch="Fill" MouseEnter="ImagenStarWars_MouseEnter" MouseLeave="ImagenStarWars_MouseLeave"/>
+        <Image x:Name="ImagenEpisodioVI" Margin="559,29,20,29" Source="episodioVI.jpg" Stretch="Fill" Grid.ColumnSpan="2" MouseEnter="ImagenStarWars_MouseEnter" MouseLeave="ImagenStarWars_MouseLeave"/>
 
     </Grid>
 </Window>
