@@ -1,0 +1,19 @@
+﻿<Window x:Class="Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opacidad"
+        mc:Ignorable="d"
+        Title="Opacidad" Height="450" Width="800" Icon="imgs/96.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="ImagenEpisodioIV" Margin="22,29,401,29" Source="episodioIV.jpg" Stretch="Fill" MouseEnter="ImagenEpisodioIV_MouseEnter" MouseLeave="ImagenEpisodioIV_MouseLeave"/>
+        <Image x:Name="ImagenEpisodioV" Margin="290,37,139,29" Source="episodioV.jpg" Stretch="Fill" MouseEnter="ImagenEpisodioV_MouseEnter" MouseLeave="ImagenEpisodioV_MouseLeave"/>
+        <Image x:Name="ImagenEpisodioVI" Margin="559,29,20,29" Source="episodioVI.jpg" Stretch="Fill" Grid.ColumnSpan="2" MouseEnter="ImagenEpisodioVI_MouseEnter" MouseLeave="ImagenEpisodioVI_MouseLeave"/>
+
+    </Grid>
+</Window>
